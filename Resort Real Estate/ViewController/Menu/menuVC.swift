@@ -16,7 +16,7 @@ class menuVC: UIViewController {
     
     var menuDatas = [menuData]()
     var GetAllUnitType = [GetAllUnitTypes]()
-    
+    var unitTyipString = 0
     lazy var refresher: UIRefreshControl = {
         let refresher = UIRefreshControl()
         refresher.addTarget(self, action: #selector(handleRefresh), for: .valueChanged)
@@ -31,6 +31,8 @@ class menuVC: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        locationTF.delegate = self
+        typeResidantUnitTF.delegate = self
         textEnabeld()
         tableView.addSubview(refresher)
         handleRefresh()
@@ -130,6 +132,18 @@ class menuVC: UIViewController {
         
     }
     
+    @objc private func handleRefreshSearch() {
+        API_Search.advancedSearch(priceto: "", pricefrom: "", noofroom: "", purposetype: "", areasize: "", lat: "", lng: "", lang: typeResidantUnitTF.text ?? "",page: 1, unittypeid: "\(unitTyipString)") { (error: Error?, menuDatas: [menuData]?) in
+            self.isLoading = false
+            if let menuDatas = menuDatas {
+                self.menuDatas = menuDatas
+                print("xxx\(self.menuDatas)")
+                self.tableView.reloadData()
+            }
+        }
+        
+    }
+    
 }
 
 
@@ -191,6 +205,24 @@ extension menuVC: UIPickerViewDelegate, UIPickerViewDataSource {
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         typeResidantUnitTF.text = GetAllUnitType[row].namear
+        unitTyipString = GetAllUnitType[row].id
+        handleRefreshSearch()
         self.view.endEditing(false)
+    }
+}
+
+
+extension menuVC: UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        locationTF.resignFirstResponder()
+        typeResidantUnitTF.resignFirstResponder()//if desired
+        handleRefreshSearch()
+        return true
+    }
+    
+    
+    func textFieldShouldClear(_ textField: UITextField) -> Bool {
+        handleRefresh()
+        return true
     }
 }

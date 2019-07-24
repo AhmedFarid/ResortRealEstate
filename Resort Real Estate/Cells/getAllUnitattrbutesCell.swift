@@ -10,15 +10,11 @@ import UIKit
 
 class getAllUnitattrbutesCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var labelname: UILabel!
+    @IBOutlet weak var inputvalue: UILabel!
+    
+    func configuerCell(prodect: getAllUnitattributes) {
+        labelname.text = prodect.labelname
+        inputvalue.text = "\(prodect.inputvalue) \(prodect.measruingunittext)"
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

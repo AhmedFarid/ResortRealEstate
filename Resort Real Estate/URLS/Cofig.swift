@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+
+struct URLs {
+    
+    static let main = "http://gmtccco-001-site1.etempurl.com/api/Units/"
+    static let mainImage = "http://gmtccco-001-site1.etempurl.com/wwwroot/upload/unit/"
+    
+    static let getunitsBylang = main + "getunitsBylang"
+    static let getAllUnitattributesByUnitIdv2 = main + "getAllUnitattributesByUnitIdv2"
+    static let GetAllUnitImages = main + "GetAllUnitImages"
+    static let getofficequikdata = main + "getofficequikdata"
+    static let GetAllUnitsByFilterParameters = main + "GetAllUnitsByFilterParameters"
+    static let GetAllUnitTypes = main + "GetAllUnitTypes"
+}

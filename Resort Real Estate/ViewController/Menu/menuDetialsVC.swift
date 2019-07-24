@@ -105,22 +105,22 @@ class menuDetialsVC: UIViewController {
         
     }
     
-    fileprivate func loadMore() {
-        guard !isLoading else {return}
-        guard current_page < last_page else {return}
-        isLoading = true
-        API_Mune.smillerUnits(unittypeid: "\(singleItem?.unittypeid ?? 0)") { (error: Error?, menuDatas: [menuData]?) in
-            self.isLoading = false
-            if let menuDatas = menuDatas {
-                self.menuDatas.append(contentsOf: menuDatas)
-                print("xxx\(self.menuDatas)")
-                self.tableViewSmiller.reloadData()
-                self.current_page += 1
-                //self.last_page = last_page
-            }
-        }
-    }
-    
+//    fileprivate func loadMore() {
+//        guard !isLoading else {return}
+//        guard current_page < last_page else {return}
+//        isLoading = true
+//        API_Mune.smillerUnits(unittypeid: "\(singleItem?.unittypeid ?? 0)") { (error: Error?, menuDatas: [menuData]?) in
+//            self.isLoading = false
+//            if let menuDatas = menuDatas {
+//                self.menuDatas.append(contentsOf: menuDatas)
+//                print("xxx\(self.menuDatas)")
+//                self.tableViewSmiller.reloadData()
+//                self.current_page += 1
+//                //self.last_page = last_page
+//            }
+//        }
+//    }
+//
     
     @objc private func handleRefreshOfficeDetials() {
         API_Mune.getOfiiceData(officeid: "\(singleItem?.officeid ?? 0)", completion: { (error, name, phone, iamge) in
@@ -302,15 +302,6 @@ extension menuDetialsVC: UITableViewDataSource , UITableViewDelegate {
             handleRefreshOfficeDetials()
             handleRefreshSmiller()
             scrollView.setContentOffset(.zero, animated: true)
-        }
-    }
-    
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        if tableView.tag == 1{
-            let count = self.menuDatas.count
-            if indexPath.row ==  count-1 {
-                self.loadMore()
-            }
         }
     }
 }
