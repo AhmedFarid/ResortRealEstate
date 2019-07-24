@@ -104,6 +104,23 @@ class menuDetialsVC: UIViewController {
         }
         
     }
+    @IBAction func orderBTN(_ sender: Any) {
+        if helper.getAPIToken() != nil{
+            performSegue(withIdentifier: "suge", sender: nil)
+        }else {
+//            let viewController: UIViewController? = storyboard?.instantiateViewController(withIdentifier: "login")
+//            let navi = UINavigationController(rootViewController: viewController!)
+//            navigationController?.pushViewController(navi, animated: true)
+//            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "login") as? loginVC
+//            self.navigationController?.pushViewController(vc!, animated: true)
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "login") as! loginVC
+            let navigationController = UINavigationController(rootViewController: vc)
+            self.present(navigationController, animated: true, completion: nil)
+
+
+        }
+    }
     
 //    fileprivate func loadMore() {
 //        guard !isLoading else {return}

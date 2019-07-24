@@ -10,17 +10,21 @@ import UIKit
 
 class profileVC: UIViewController {
 
+    @IBOutlet weak var loginBTNOutlat: uiBottenView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        //setUpNave()
-        // Do any additional setup after loading the view.
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        if helper.getAPIToken() != nil {
+            loginBTNOutlat.isHidden = true
+        }
         setUpNave()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
+        
         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.02352941176, green: 0.568627451, blue: 0.8705882353, alpha: 1)
         self.navigationController?.navigationBar.tintColor = .white
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
@@ -49,6 +53,11 @@ class profileVC: UIViewController {
     
     @IBAction func neweADs(_ sender: Any) {
         performSegue(withIdentifier: "suge", sender: "getnewestunitsBylang")
+    }
+    
+    
+    @IBAction func loginBtn(_ sender: Any) {
+        performSegue(withIdentifier: "suge2", sender: "getnewestunitsBylang")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

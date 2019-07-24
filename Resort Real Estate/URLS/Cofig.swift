@@ -20,4 +20,6 @@ struct URLs {
     static let getofficequikdata = main + "getofficequikdata"
     static let GetAllUnitsByFilterParameters = main + "GetAllUnitsByFilterParameters"
     static let GetAllUnitTypes = main + "GetAllUnitTypes"
+    static let login = main + "login"
+    static let InsertCustomer = main + "InsertCustomer"
 }
