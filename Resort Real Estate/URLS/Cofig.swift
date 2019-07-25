@@ -11,6 +11,7 @@ import Foundation
 
 struct URLs {
     
+    
     static let main = "http://gmtccco-001-site1.etempurl.com/api/Units/"
     static let mainImage = "http://gmtccco-001-site1.etempurl.com/wwwroot/upload/unit/"
     
@@ -22,4 +23,7 @@ struct URLs {
     static let GetAllUnitTypes = main + "GetAllUnitTypes"
     static let login = main + "login"
     static let InsertCustomer = main + "InsertCustomer"
+    static let bookrentunit = main + "bookrentunit"
+    
+    
 }

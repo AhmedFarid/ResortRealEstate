@@ -106,7 +106,7 @@ class menuDetialsVC: UIViewController {
     }
     @IBAction func orderBTN(_ sender: Any) {
         if helper.getAPIToken() != nil{
-            performSegue(withIdentifier: "suge", sender: nil)
+            performSegue(withIdentifier: "suge", sender: singleItem)
         }else {
 //            let viewController: UIViewController? = storyboard?.instantiateViewController(withIdentifier: "login")
 //            let navi = UINavigationController(rootViewController: viewController!)
@@ -138,6 +138,12 @@ class menuDetialsVC: UIViewController {
 //        }
 //    }
 //
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destaiantion = segue.destination as? bookRentVC{
+            destaiantion.singleItem = singleItem
+        }
+    }
+    
     
     @objc private func handleRefreshOfficeDetials() {
         API_Mune.getOfiiceData(officeid: "\(singleItem?.officeid ?? 0)", completion: { (error, name, phone, iamge) in

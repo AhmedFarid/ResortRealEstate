@@ -29,6 +29,10 @@
 		69C2EB9622E08D1C00ED85B9 /* bannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2EB9522E08D1C00ED85B9 /* bannerCell.swift */; };
 		69C2EB9822E0938800ED85B9 /* circalImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2EB9722E0938800ED85B9 /* circalImageVIew.swift */; };
 		69C2EB9A22E09DA900ED85B9 /* uibuttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C2EB9922E09DA900ED85B9 /* uibuttonView.swift */; };
+		69C4BE5122E9E0720069632E /* uiLabeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5022E9E0720069632E /* uiLabeViews.swift */; };
+		69C4BE5322E9E5890069632E /* bookSellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5222E9E5890069632E /* bookSellVC.swift */; };
+		69C4BE5522EA04C40069632E /* bookRentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5422EA04C40069632E /* bookRentVC.swift */; };
+		69C4BE5722EA064C0069632E /* API+bookingUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5622EA064C0069632E /* API+bookingUnit.swift */; };
 		69CA5B2022DB55BE00061C98 /* uiViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA5B1F22DB55BE00061C98 /* uiViewsView.swift */; };
 		69CA5B2322DB603D00061C98 /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA5B2222DB603D00061C98 /* menuCell.swift */; };
 		69D497F122DF6A2F00ABAD5F /* uiTableViewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D497F022DF6A2F00ABAD5F /* uiTableViewViews.swift */; };
@@ -67,6 +71,10 @@
 		69C2EB9522E08D1C00ED85B9 /* bannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerCell.swift; sourceTree = "<group>"; };
 		69C2EB9722E0938800ED85B9 /* circalImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circalImageVIew.swift; sourceTree = "<group>"; };
 		69C2EB9922E09DA900ED85B9 /* uibuttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uibuttonView.swift; sourceTree = "<group>"; };
+		69C4BE5022E9E0720069632E /* uiLabeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiLabeViews.swift; sourceTree = "<group>"; };
+		69C4BE5222E9E5890069632E /* bookSellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookSellVC.swift; sourceTree = "<group>"; };
+		69C4BE5422EA04C40069632E /* bookRentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookRentVC.swift; sourceTree = "<group>"; };
+		69C4BE5622EA064C0069632E /* API+bookingUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+bookingUnit.swift"; sourceTree = "<group>"; };
 		69CA5B1F22DB55BE00061C98 /* uiViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiViewsView.swift; sourceTree = "<group>"; };
 		69CA5B2222DB603D00061C98 /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
 		69D497F022DF6A2F00ABAD5F /* uiTableViewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiTableViewViews.swift; sourceTree = "<group>"; };
@@ -116,6 +124,7 @@
 				69D497F022DF6A2F00ABAD5F /* uiTableViewViews.swift */,
 				69C2EB9722E0938800ED85B9 /* circalImageVIew.swift */,
 				69C2EB9922E09DA900ED85B9 /* uibuttonView.swift */,
+				69C4BE5022E9E0720069632E /* uiLabeViews.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +220,7 @@
 				69BEBDDC22DC791100EB187A /* API+Mune.swift */,
 				69DC515C22E5C48000F22377 /* API+Search.swift */,
 				69A00D9122E8B47F0063457B /* API+Auth.swift */,
+				69C4BE5622EA064C0069632E /* API+bookingUnit.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -247,6 +257,8 @@
 			children = (
 				690C0E6B22D4F534000C4BB5 /* menuVC.swift */,
 				69BFA13922DE0AC40082A563 /* menuDetialsVC.swift */,
+				69C4BE5222E9E5890069632E /* bookSellVC.swift */,
+				69C4BE5422EA04C40069632E /* bookRentVC.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -381,18 +393,22 @@
 				69AE87DB22DB753400364C5C /* menuData.swift in Sources */,
 				69BFA13A22DE0AC40082A563 /* menuDetialsVC.swift in Sources */,
 				69B7F37522D4CFDA009236D9 /* homeMapVC.swift in Sources */,
+				69C4BE5122E9E0720069632E /* uiLabeViews.swift in Sources */,
 				69DC516022E5D53200F22377 /* searchResultVC.swift in Sources */,
 				69A00D9222E8B47F0063457B /* API+Auth.swift in Sources */,
 				693C665E22E87E5800A6607A /* loginVC.swift in Sources */,
 				690C0E6C22D4F534000C4BB5 /* menuVC.swift in Sources */,
 				69CA5B2022DB55BE00061C98 /* uiViewsView.swift in Sources */,
 				69D8688122D76C6400341C12 /* uiBottenView.swift in Sources */,
+				69C4BE5322E9E5890069632E /* bookSellVC.swift in Sources */,
 				69BEBDDD22DC791100EB187A /* API+Mune.swift in Sources */,
 				69A00D9522E8B7B40063457B /* helper.swift in Sources */,
+				69C4BE5722EA064C0069632E /* API+bookingUnit.swift in Sources */,
 				690C0E6A22D4E9D9000C4BB5 /* uitextFiledView.swift in Sources */,
 				69C2EB9422E07EF400ED85B9 /* getAllUnitattrbutesCell.swift in Sources */,
 				69B7F37322D4CFDA009236D9 /* AppDelegate.swift in Sources */,
 				69AE87DE22DB8A7800364C5C /* Cofig.swift in Sources */,
+				69C4BE5522EA04C40069632E /* bookRentVC.swift in Sources */,
 				69C2EB9A22E09DA900ED85B9 /* uibuttonView.swift in Sources */,
 				69A00D9922E8BBEB0063457B /* showAlert.swift in Sources */,
 				69D8687F22D759F600341C12 /* profileVC.swift in Sources */,

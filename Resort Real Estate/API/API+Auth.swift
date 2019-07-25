@@ -47,7 +47,7 @@ class API_Auth: NSObject {
             case .success(let value):
                 let json = JSON(value)
                 print(value)
-                if let user_token = json["data"]["access_token"].string {
+                if let user_token = json["data"]["customerid"].string {
                     print("user token \(user_token)")
                     helper.saveAPIToken(token: user_token)
                     completion(nil, true , nil)
@@ -92,7 +92,7 @@ class API_Auth: NSObject {
             case .success(let value):
                 let json = JSON(value)
                 print(value)
-                if let user_token = json["data"]["access_token"].string {
+                if let user_token = json["data"]["customerid"].string {
                     print("user token \(user_token)")
                     helper.saveAPIToken(token: user_token)
                     completion(nil, true , nil)
