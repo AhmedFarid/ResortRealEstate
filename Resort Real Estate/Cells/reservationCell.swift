@@ -1,0 +1,32 @@
+//
+//  reservationCell.swift
+//  Resort Real Estate
+//
+//  Created by Farido on 7/29/19.
+//  Copyright © 2019 Farido. All rights reserved.
+//
+
+import UIKit
+
+class reservationCell: UITableViewCell {
+
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var topName: UILabel!
+    @IBOutlet weak var socendName: UILabel!
+    @IBOutlet weak var timeONe: UILabel!
+    @IBOutlet weak var time2: UILabel!
+   
+    
+    
+    func configuerCell(prodect: GetContractsBYCustomers) {
+        
+        title.text = prodect.unitname
+        topName.text = prodect.customername
+        socendName.text = prodect.unitname
+        timeONe.text = prodect.bookingDate
+        time2.text = prodect.renttime
+        
+    }
+    
+
+}

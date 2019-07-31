@@ -39,6 +39,15 @@ class homeMapVC: UIViewController {
         }
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.02352941176, green: 0.568627451, blue: 0.8705882353, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = .white
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = false
+    }
+    
+    
     public func setUpNave(){
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()

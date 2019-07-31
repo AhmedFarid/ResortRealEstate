@@ -106,7 +106,18 @@ class menuDetialsVC: UIViewController {
     }
     @IBAction func orderBTN(_ sender: Any) {
         if helper.getAPIToken() != nil{
-            performSegue(withIdentifier: "suge", sender: singleItem)
+            if singleItem?.purposetype == 1 {
+                performSegue(withIdentifier: "suge", sender: singleItem)
+            }else if singleItem?.purposetype == 2 {
+                if singleItem?.enablebid == true {
+                    performSegue(withIdentifier: "suge2", sender: singleItem)
+                }else if singleItem?.enabledivision == true {
+                    performSegue(withIdentifier: "suge4", sender: singleItem)
+                }else {
+                    performSegue(withIdentifier: "suge3", sender: singleItem)
+                }
+                
+            }
         }else {
 //            let viewController: UIViewController? = storyboard?.instantiateViewController(withIdentifier: "login")
 //            let navi = UINavigationController(rootViewController: viewController!)
@@ -140,6 +151,12 @@ class menuDetialsVC: UIViewController {
 //
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destaiantion = segue.destination as? bookRentVC{
+            destaiantion.singleItem = singleItem
+        }else if let destaiantion = segue.destination as? bookSellVC{
+            destaiantion.singleItem = singleItem
+        }else if let destaiantion = segue.destination as? normalSellVC{
+            destaiantion.singleItem = singleItem
+        }else if let destaiantion = segue.destination as? bookSharingVC{
             destaiantion.singleItem = singleItem
         }
     }

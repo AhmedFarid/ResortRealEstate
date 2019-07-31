@@ -25,8 +25,8 @@ class menuVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setUpNave()
+       
+        //setUpNave()
         imageText()
         
         tableView.delegate = self

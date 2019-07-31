@@ -284,3 +284,146 @@ class GetAllUnitTypes: NSObject {
     }
 }
 
+
+class getPaymentMethods: NSObject {
+    
+    var id: Int
+    var name: String
+    
+    init?(dict: [String: JSON]){
+        
+        if let id = dict["id"]?.int{
+            self.id = id
+        }else {
+            self.id = 0
+        }
+        
+        if let name = dict["name"]?.string{
+            self.name = name
+        }else{
+            self.name = ""
+        }
+    }
+}
+//
+////"" : "2019-07-29T00:00:00",
+//"" : "18 Months",
+//"paymrntmethod" : "Term",
+//"rentDate" : "2019-06-29T00:00:00",
+//"" : "مكتب 1109A",
+////"id" : 61,
+//"" : "وديع عبد الله زيني فاضل",
+////"unitId" : 3126,
+//"tenantId" : 2361
+
+class GetContractsBYCustomers: NSObject {
+  
+    var id: Int
+    var unitId: Int
+    var bookingDate: String
+    var customername: String
+    var renttime: String
+    var unitname: String
+  
+    init?(dict: [String: JSON]){
+        
+        if let id = dict["id"]?.int{
+            self.id = id
+        }else {
+            self.id = 0
+        }
+        
+        if let unitId = dict["unitId"]?.int{
+            self.unitId = unitId
+        }else {
+            self.unitId = 0
+        }
+        
+        if let bookingDate = dict["bookingDate"]?.string{
+            self.bookingDate = bookingDate
+        }else {
+            self.bookingDate = ""
+        }
+        
+        if let renttime = dict["renttime"]?.string{
+            self.renttime = renttime
+        }else {
+            self.renttime = ""
+        }
+        
+        if let customername = dict["customername"]?.string{
+            self.customername = customername
+        }else {
+            self.customername = ""
+        }
+       
+        if let unitname = dict["unitname"]?.string{
+            self.unitname = unitname
+        }else {
+            self.unitname = ""
+        }
+    }
+}
+
+
+//"": "1 سنة",,
+//"period": 1.0
+//"": "2019-06-19T00:00:00",
+//"startContractDate": "2019-06-19T00:00:00",
+//"endContractDate": "2020-06-19T00:00:00",
+//"amount": 100000.0,
+//"tenentId": 2361,
+//"paymentMethodType": "كاش",
+//"": "وديع عبد الله زيني فاضل",
+//"status": "معتمد"
+
+class GetContractsBYCustomer: NSObject {
+    
+    var id: Int
+    var amount: Double
+    var date: String
+    var customername: String
+    var renttime: String
+    var unitname: String
+    
+    init?(dict: [String: JSON]){
+        
+        if let id = dict["id"]?.int{
+            self.id = id
+        }else {
+            self.id = 0
+        }
+        
+        if let amount = dict["amount"]?.double{
+            self.amount = amount
+        }else {
+            self.amount = 0.0
+        }
+        
+        if let date = dict["date"]?.string{
+            self.date = date
+        }else {
+            self.date = ""
+        }
+        
+        if let renttime = dict["renttime"]?.string{
+            self.renttime = renttime
+        }else {
+            self.renttime = ""
+        }
+        
+        if let customername = dict["customername"]?.string{
+            self.customername = customername
+        }else {
+            self.customername = ""
+        }
+        
+        if let unitname = dict["unitname"]?.string{
+            self.unitname = unitname
+        }else {
+            self.unitname = ""
+        }
+    }
+}
+
+

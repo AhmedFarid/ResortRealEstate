@@ -24,6 +24,12 @@ struct URLs {
     static let login = main + "login"
     static let InsertCustomer = main + "InsertCustomer"
     static let bookrentunit = main + "bookrentunit"
-    
+    static let GetUnitPrices = main + "GetUnitPrices"
+    static let AddUnitClientPrice = main + "AddUnitClientPrice"
+    static let GetPaymentMethodTypesByUnitID = main + "GetPaymentMethodTypesByUnitID"
+    static let booksaleunit = main + "booksaleunit"
+    static let GetContractsBYCustomer = main + "GetContractsBYCustomer"
+    static let GetBookingsBYCustomer = main + "GetBookingsBYCustomer"
+
     
 }
