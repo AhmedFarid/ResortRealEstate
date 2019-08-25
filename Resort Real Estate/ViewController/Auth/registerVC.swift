@@ -16,8 +16,10 @@ class registerVC: UIViewController {
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var idTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var spiner: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        spiner.isHidden = true
     }
     
     
@@ -93,7 +95,8 @@ class registerVC: UIViewController {
     
     
     func getRegistet(){
-        
+        self.spiner.startAnimating()
+        self.spiner.isHidden = false
         API_Auth.register(client_id: idTF.text ?? "", phone: phoneTF.text ?? "", id: idTF.text ?? "", email: emailTF.text ?? "", username: userNameTF.text ?? "", name: fullNameTF.text ?? "", password: passwordTF.text ?? ""){ (error: Error?, success: Bool, data) in
             if success {
                 if data == nil {
@@ -116,8 +119,11 @@ class registerVC: UIViewController {
                 }
                 //
             }else {
-                self.showAlert(title: "Register Filed", message: "\(data ?? "") Sorry Try again")
+                self.showAlert(title: "Register Filed", message: "\(data ?? "") No Network Sorry Try again")
             }
+            
+            self.spiner.stopAnimating()
+            self.spiner.isHidden = true
             
         }
     }

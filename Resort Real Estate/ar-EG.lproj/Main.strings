@@ -1,0 +1,330 @@
+/* Class = "UITextField"; placeholder = "User name"; ObjectID = "0N6-ij-MKU"; */
+"0N6-ij-MKU.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "Number of share remaining"; ObjectID = "0PC-VC-ftD"; */
+"0PC-VC-ftD.text" = "عدد المشاركات المتبقيه";
+
+/* Class = "UIButton"; normalTitle = "New Account"; ObjectID = "0tR-O4-s1y"; */
+"0tR-O4-s1y.normalTitle" = "حساب جديد";
+
+/* Class = "UILabel"; text = "Unit Descripation"; ObjectID = "4ye-sk-wI3"; */
+"4ye-sk-wI3.text" = "تفاصيل الوحده";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "5Cd-UH-JFg"; */
+"5Cd-UH-JFg.text" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "Number Of Rooms"; ObjectID = "5Uo-Nb-uX4"; */
+"5Uo-Nb-uX4.placeholder" = "عدد الغرف";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "6ZU-1c-h34"; */
+"6ZU-1c-h34.text" = "العنوان";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "8kv-Zp-cKy"; */
+"8kv-Zp-cKy.text" = "الحجم";
+
+/* Class = "UINavigationItem"; title = "My Account"; ObjectID = "8xG-Ct-CoA"; */
+"8xG-Ct-CoA.title" = "حسابي";
+
+/* Class = "UILabel"; text = "Select Search Types"; ObjectID = "9QY-fX-P6D"; */
+"9QY-fX-P6D.text" = "اختر نوع البحث";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "a7E-JZ-732"; */
+"a7E-JZ-732.title" = "القائمه";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "adc-ju-dVv"; */
+"adc-ju-dVv.text" = "اسم";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "Agd-cD-d51"; */
+"Agd-cD-d51.text" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "aHv-yq-Dgm"; */
+"aHv-yq-Dgm.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "Bit your unit now"; ObjectID = "aSg-ji-EZP"; */
+"aSg-ji-EZP.text" = "احجز وحدتك الان";
+
+/* Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Aue-BT-YLi"; */
+"Aue-BT-YLi.placeholder" = "نوع الوحدة السكنية";
+
+/* Class = "UITextField"; placeholder = "Payment Methods"; ObjectID = "b0X-4T-pZC"; */
+"b0X-4T-pZC.placeholder" = "نوع الدفع";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "bJN-Yb-AcV"; */
+"bJN-Yb-AcV.text" = "وقت";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "bXO-0P-2EK"; */
+"bXO-0P-2EK.text" = "السعر";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "ceR-Iw-mAt"; */
+"ceR-Iw-mAt.text" = "حجم";
+
+/* Class = "UILabel"; text = "Newest Ads"; ObjectID = "ChS-ZA-fbf"; */
+"ChS-ZA-fbf.text" = "الاعلانات الجديده";
+
+/* Class = "UINavigationItem"; title = "Advanced Search"; ObjectID = "cZ6-xz-AmB"; */
+"cZ6-xz-AmB.title" = "بحث متقدم";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "D6u-TU-ab7"; */
+"D6u-TU-ab7.text" = "الحجم";
+
+/* Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "d55-zg-GdH"; */
+"d55-zg-GdH.placeholder" = "تاريخ البدء المتوقع";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "DbN-mo-XJv"; */
+"DbN-mo-XJv.text" = "الوقت";
+
+/* Class = "UITextField"; placeholder = "Choose location of residential unit"; ObjectID = "dns-1n-Eie"; */
+"dns-1n-Eie.placeholder" = "اختيار موقع الوحدة السكنية";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "dvf-Mm-OLR"; */
+"dvf-Mm-OLR.text" = "حجم";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "ecr-7H-Yx4"; */
+"ecr-7H-Yx4.normalTitle" = "English";
+
+/* Class = "UITextField"; placeholder = "Unit Size Meter"; ObjectID = "eor-Hl-Js9"; */
+"eor-Hl-Js9.placeholder" = "حجم الوحده بالمتر";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "exo-f8-ThJ"; */
+"exo-f8-ThJ.placeholder" = "كلمه المرور";
+
+/* Class = "UITextField"; placeholder = "Rent Or Sell"; ObjectID = "EZK-PH-U7t"; */
+"EZK-PH-U7t.placeholder" = "ايجار او بيع";
+
+/* Class = "UIButton"; normalTitle = "   Login"; ObjectID = "fdd-D6-eL7"; */
+"fdd-D6-eL7.normalTitle" = "   تسجيل";
+
+/* Class = "UILabel"; text = "floor"; ObjectID = "ffb-1E-geg"; */
+"ffb-1E-geg.text" = "طابق";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "fHa-cN-HhT"; */
+"fHa-cN-HhT.text" = "اسم";
+
+/* Class = "UILabel"; text = "Book your unit now"; ObjectID = "fhg-ad-3fm"; */
+"fhg-ad-3fm.text" = "احجز وحدتك الان";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "gEQ-JI-gRJ"; */
+"gEQ-JI-gRJ.text" = "الهاتف";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "gkK-kU-ske"; */
+"gkK-kU-ske.text" = "الاسم";
+
+/* Class = "UITextField"; placeholder = "Rent Type"; ObjectID = "gNc-hR-mj0"; */
+"gNc-hR-mj0.placeholder" = "نوع الحجز";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "GO5-ud-uWA"; */
+"GO5-ud-uWA.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "gQu-vi-5yX"; */
+"gQu-vi-5yX.text" = "وقت";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "GT7-bg-YVQ"; */
+"GT7-bg-YVQ.normalTitle" = "تسجيل دخول";
+
+/* Class = "UILabel"; text = "Share Area:"; ObjectID = "GTa-wd-bet"; */
+"GTa-wd-bet.text" = "مشاركه المنطقه:";
+
+/* Class = "UITextField"; placeholder = "Add New Price"; ObjectID = "GUg-js-vKS"; */
+"GUg-js-vKS.placeholder" = "اضافه سعر جديد";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "Hbx-qa-mDc"; */
+"Hbx-qa-mDc.title" = "خريطه";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "hdc-DS-HfG"; */
+"hdc-DS-HfG.text" = "وقت";
+
+/* Class = "UITextField"; placeholder = "Rent Time"; ObjectID = "HOv-o1-3FP"; */
+"HOv-o1-3FP.placeholder" = "وقت الحجز";
+
+/* Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Hr4-Vr-1mp"; */
+"Hr4-Vr-1mp.placeholder" = "نوع الوحدة السكنية";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "HUa-Kk-0uC"; */
+"HUa-Kk-0uC.placeholder" = "الهاتف";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "HuS-Je-sPC"; */
+"HuS-Je-sPC.text" = "نواع";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "i2I-Kd-yIa"; */
+"i2I-Kd-yIa.text" = "عنوان";
+
+/* Class = "UITextField"; placeholder = "Price To"; ObjectID = "I7y-s3-WDD"; */
+"I7y-s3-WDD.placeholder" = "السعر الي";
+
+/* Class = "UIButton"; normalTitle = "Contracts"; ObjectID = "I54-Fx-2XP"; */
+"I54-Fx-2XP.normalTitle" = "عقود";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "j9x-xd-9FV"; */
+"j9x-xd-9FV.text" = "اسم";
+
+/* Class = "UITextField"; placeholder = "Unit Type"; ObjectID = "J49-rD-BAo"; */
+"J49-rD-BAo.placeholder" = "نوع الوحده";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "jRa-0y-NBz"; */
+"jRa-0y-NBz.text" = "نواع";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "kMa-o1-o6Y"; */
+"kMa-o1-o6Y.text" = "اسم";
+
+/* Class = "UILabel"; text = "Get number of share now"; ObjectID = "lb4-5z-yfX"; */
+"lb4-5z-yfX.text" = "الحصول على عدد من حصة الآن";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "M0W-KD-JNw"; */
+"M0W-KD-JNw.text" = "السعر";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "mI8-V2-vMS"; */
+"mI8-V2-vMS.text" = "اسم";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "mQE-BP-aVU"; */
+"mQE-BP-aVU.text" = "اسم";
+
+/* Class = "UILabel"; text = "Similar Real State"; ObjectID = "n9m-cb-Wb8"; */
+"n9m-cb-Wb8.text" = "العقارات المتشابه";
+
+/* Class = "UILabel"; text = "Number of sold Share"; ObjectID = "n91-gl-zqL"; */
+"n91-gl-zqL.text" = "عدد الأسهم المباعة";
+
+/* Class = "UITextField"; placeholder = "Price From"; ObjectID = "NfR-6D-Cmn"; */
+"NfR-6D-Cmn.placeholder" = "السعر الي";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "NLr-eb-af9"; */
+"NLr-eb-af9.text" = "الاسم";
+
+/* Class = "UILabel"; text = "Initial price"; ObjectID = "nQr-Qp-D5w"; */
+"nQr-Qp-D5w.text" = "السعر المبدائي";
+
+/* Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[0] = "RENT"; ObjectID = "nTX-Vh-8Me"; */
+"nTX-Vh-8Me.segmentTitles[0]" = "حجز";
+
+/* Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[1] = "SELLING"; ObjectID = "nTX-Vh-8Me"; */
+"nTX-Vh-8Me.segmentTitles[1]" = "يبيع";
+
+/* Class = "UITextField"; placeholder = "Select Location"; ObjectID = "NuB-uf-uW2"; */
+"NuB-uf-uW2.placeholder" = "اختار العنوان";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "oAK-6p-Wkc"; */
+"oAK-6p-Wkc.placeholder" = "البريد";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "oEy-R2-d4e"; */
+"oEy-R2-d4e.placeholder" = "كلمه المرور";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "oIY-ft-ROJ"; */
+"oIY-ft-ROJ.text" = "حجم";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "oJC-tK-mbe"; */
+"oJC-tK-mbe.text" = "حجم";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "Ot0-HN-Wwk"; */
+"Ot0-HN-Wwk.text" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "Reservations"; ObjectID = "p9W-Uq-J8Y"; */
+"p9W-Uq-J8Y.normalTitle" = "حجز";
+
+/* Class = "UITextField"; placeholder = "Enter New Price"; ObjectID = "PMK-Gk-NwG"; */
+"PMK-Gk-NwG.placeholder" = "ادخل سعر الجديد";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "pOB-vr-6mo"; */
+"pOB-vr-6mo.normalTitle" = "تسجيل الخروج";
+
+/* Class = "UITabBarItem"; title = "My Account"; ObjectID = "PTu-xp-tnG"; */
+"PTu-xp-tnG.title" = "حسابي";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "PvK-1J-vhM"; */
+"PvK-1J-vhM.text" = "نوع";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "PX1-ci-gVS"; */
+"PX1-ci-gVS.text" = "حجم";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "q6f-bw-6oC"; */
+"q6f-bw-6oC.text" = "تفاصيل";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "qhW-2G-yT6"; */
+"qhW-2G-yT6.title" = "قائمه";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "qrr-Nc-ywh"; */
+"qrr-Nc-ywh.text" = "سعر";
+
+/* Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "t9e-lK-jNt"; */
+"t9e-lK-jNt.title" = "اختيار الممتلكات الخاصة بك";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "TMp-rR-pMV"; */
+"TMp-rR-pMV.text" = "اسم";
+
+/* Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "TTj-h4-0tL"; */
+"TTj-h4-0tL.placeholder" = "تاريخ البدء المتوقع";
+
+/* Class = "UILabel"; text = "Realstate bit"; ObjectID = "U0n-uy-9Ug"; */
+"U0n-uy-9Ug.text" = "Realstate bit";
+
+/* Class = "UIButton"; normalTitle = "Book Unit Now"; ObjectID = "u1w-vB-Noh"; */
+"u1w-vB-Noh.normalTitle" = "احجز وحدتك الان";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "U79-9n-YXs"; */
+"U79-9n-YXs.normalTitle" = "حساب جديد";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "U86-XS-nU0"; */
+"U86-XS-nU0.text" = "حجم";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "UH7-tP-yjW"; */
+"UH7-tP-yjW.text" = "اسم";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "uxQ-Wk-h2U"; */
+"uxQ-Wk-h2U.text" = "حجم";
+
+/* Class = "UITextField"; placeholder = "Full name"; ObjectID = "vo2-Fd-UBY"; */
+"vo2-Fd-UBY.placeholder" = "الاسم";
+
+/* Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "vUa-z1-qjH"; */
+"vUa-z1-qjH.title" = "اختيار الممتلكات الخاصة بك";
+
+/* Class = "UILabel"; text = "Bedroom"; ObjectID = "w0U-jN-imj"; */
+"w0U-jN-imj.text" = "غرف النوم";
+
+/* Class = "UILabel"; text = "Last price"; ObjectID = "wea-VM-gev"; */
+"wea-VM-gev.text" = "اخر سعر";
+
+/* Class = "UILabel"; text = "Book your unit now"; ObjectID = "wFc-9Y-481"; */
+"wFc-9Y-481.text" = "احجز وحدتك الان";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WPH-zN-b2t"; */
+"WPH-zN-b2t.text" = "اسم";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "x5b-St-6cC"; */
+"x5b-St-6cC.text" = "اسم";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "xG7-Yl-EPx"; */
+"xG7-Yl-EPx.text" = "اسم";
+
+/* Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[0] = "RENT"; ObjectID = "xln-1A-vBn"; */
+"xln-1A-vBn.segmentTitles[0]" = "حجز";
+
+/* Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[1] = "SELLING"; ObjectID = "xln-1A-vBn"; */
+"xln-1A-vBn.segmentTitles[1]" = "بيع";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "XlS-Mn-nKm"; */
+"XlS-Mn-nKm.normalTitle" = "نسيت كلمه المرور";
+
+/* Class = "UITextField"; placeholder = "Number of Shares"; ObjectID = "y1k-v9-Vsy"; */
+"y1k-v9-Vsy.placeholder" = "عدد المشاركات";
+
+/* Class = "UILabel"; text = "Des"; ObjectID = "Ywn-R2-KZd"; */
+"Ywn-R2-KZd.text" = "وصف";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "yZW-CC-T2u"; */
+"yZW-CC-T2u.text" = "اسم";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "ZCJ-as-qsR"; */
+"ZCJ-as-qsR.text" = "اسم";
+
+/* Class = "UITextField"; placeholder = "National ID"; ObjectID = "zeI-9x-8xt"; */
+"zeI-9x-8xt.placeholder" = "رقم الهويه";
+
+/* Class = "UILabel"; text = "Special Realstate"; ObjectID = "ZHS-Uy-b9y"; */
+"ZHS-Uy-b9y.text" = "عقارات خاصه";
+
+/* Class = "UIButton"; normalTitle = "Search Now"; ObjectID = "zNY-2B-xZL"; */
+"zNY-2B-xZL.normalTitle" = "بحث الان";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ZzV-2q-jgL"; */
+"ZzV-2q-jgL.text" = "اسم";
+

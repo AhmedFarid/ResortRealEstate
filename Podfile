@@ -11,5 +11,6 @@ target 'Resort Real Estate' do
   pod 'SwiftyJSON'
   pod 'Kingfisher'
   pod 'IQKeyboardManagerSwift'
+  pod 'MOLH'
 
 end

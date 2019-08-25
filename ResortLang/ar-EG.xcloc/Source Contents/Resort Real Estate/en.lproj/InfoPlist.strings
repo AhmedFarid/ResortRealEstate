@@ -1,0 +1,8 @@
+/* Bundle name */
+"CFBundleName" = "Resort Real Estate";
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Description";
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "Description";
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Description";

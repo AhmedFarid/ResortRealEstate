@@ -12,10 +12,12 @@ class loginVC: UIViewController {
 
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var spiner: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageText()
+        spiner.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,12 +41,23 @@ class loginVC: UIViewController {
     }
     
     @IBAction func siginBTN(_ sender: Any) {
-        getLogin()
-    }
-    
-    
-    func getLogin(){
+        guard let userNames = emailTF.text, !userNames.isEmpty else {
+            let messages = NSLocalizedString("enter your Full User Name", comment: "hhhh")
+            let title = NSLocalizedString("Register Filed", comment: "hhhh")
+            self.showAlert(title: title, message: messages)
+            return
+        }
         
+        guard let passwords = password.text, !passwords.isEmpty else {
+            let messages = NSLocalizedString("enter your password", comment: "hhhh")
+            let title = NSLocalizedString("Register Filed", comment: "hhhh")
+            self.showAlert(title: title, message: messages)
+            return
+        }
+        
+        
+        self.spiner.startAnimating()
+        self.spiner.isHidden = false
         API_Auth.Login(email: emailTF.text ?? "", password: password.text ?? ""){ (error: Error?, success: Bool, data) in
             if success {
                 if data == nil {
@@ -55,12 +68,13 @@ class loginVC: UIViewController {
                 }
                 //
             }else {
-                self.showAlert(title: "Register Filed", message: "\(data ?? "") Sorry Try again")
+                self.showAlert(title: "Register Filed", message: "\(data ?? "") no network")
             }
-            
+            self.spiner.stopAnimating()
+            self.spiner.isHidden = true
         }
+       
     }
-    
     
     
     @IBAction func cancelBTN(_ sender: Any) {

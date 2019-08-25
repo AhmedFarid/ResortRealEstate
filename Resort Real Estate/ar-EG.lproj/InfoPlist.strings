@@ -1,0 +1,9 @@
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "وصف";
+
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "وصف";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "وصف";
+

@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Resort Real Estate/Base.lproj/Main.storyboard" source-language="en" target-language="ar-EG" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="0N6-ij-MKU.placeholder">
+        <source>User name</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UITextField"; placeholder = "User name"; ObjectID = "0N6-ij-MKU";</note>
+      </trans-unit>
+      <trans-unit id="0PC-VC-ftD.text">
+        <source>Number of share remaining</source>
+        <target>عدد المشاركات المتبقيه</target>
+        <note>Class = "UILabel"; text = "Number of share remaining"; ObjectID = "0PC-VC-ftD";</note>
+      </trans-unit>
+      <trans-unit id="0tR-O4-s1y.normalTitle">
+        <source>New Account</source>
+        <target>حساب جديد</target>
+        <note>Class = "UIButton"; normalTitle = "New Account"; ObjectID = "0tR-O4-s1y";</note>
+      </trans-unit>
+      <trans-unit id="4ye-sk-wI3.text">
+        <source>Unit Descripation</source>
+        <target>تفاصيل الوحده</target>
+        <note>Class = "UILabel"; text = "Unit Descripation"; ObjectID = "4ye-sk-wI3";</note>
+      </trans-unit>
+      <trans-unit id="5Cd-UH-JFg.text">
+        <source>Address</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "5Cd-UH-JFg";</note>
+      </trans-unit>
+      <trans-unit id="5Uo-Nb-uX4.placeholder">
+        <source>Number Of Rooms</source>
+        <target>عدد الغرف</target>
+        <note>Class = "UITextField"; placeholder = "Number Of Rooms"; ObjectID = "5Uo-Nb-uX4";</note>
+      </trans-unit>
+      <trans-unit id="6ZU-1c-h34.text">
+        <source>Subtitle</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "Subtitle"; ObjectID = "6ZU-1c-h34";</note>
+      </trans-unit>
+      <trans-unit id="8kv-Zp-cKy.text">
+        <source>SIze</source>
+        <target>الحجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "8kv-Zp-cKy";</note>
+      </trans-unit>
+      <trans-unit id="8xG-Ct-CoA.title">
+        <source>My Account</source>
+        <target>حسابي</target>
+        <note>Class = "UINavigationItem"; title = "My Account"; ObjectID = "8xG-Ct-CoA";</note>
+      </trans-unit>
+      <trans-unit id="9QY-fX-P6D.text">
+        <source>Select Search Types</source>
+        <target>اختر نوع البحث</target>
+        <note>Class = "UILabel"; text = "Select Search Types"; ObjectID = "9QY-fX-P6D";</note>
+      </trans-unit>
+      <trans-unit id="Agd-cD-d51.text">
+        <source>Address</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "Agd-cD-d51";</note>
+      </trans-unit>
+      <trans-unit id="Aue-BT-YLi.placeholder">
+        <source>Type of residential unit</source>
+        <target>نوع الوحدة السكنية</target>
+        <note>Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Aue-BT-YLi";</note>
+      </trans-unit>
+      <trans-unit id="ChS-ZA-fbf.text">
+        <source>Newest Ads</source>
+        <target>الاعلانات الجديده</target>
+        <note>Class = "UILabel"; text = "Newest Ads"; ObjectID = "ChS-ZA-fbf";</note>
+      </trans-unit>
+      <trans-unit id="D6u-TU-ab7.text">
+        <source>size</source>
+        <target>الحجم</target>
+        <note>Class = "UILabel"; text = "size"; ObjectID = "D6u-TU-ab7";</note>
+      </trans-unit>
+      <trans-unit id="DbN-mo-XJv.text">
+        <source>Time</source>
+        <target>الوقت</target>
+        <note>Class = "UILabel"; text = "Time"; ObjectID = "DbN-mo-XJv";</note>
+      </trans-unit>
+      <trans-unit id="EZK-PH-U7t.placeholder">
+        <source>Rent Or Sell</source>
+        <target>ايجار او بيع</target>
+        <note>Class = "UITextField"; placeholder = "Rent Or Sell"; ObjectID = "EZK-PH-U7t";</note>
+      </trans-unit>
+      <trans-unit id="GO5-ud-uWA.text">
+        <source>Address</source>
+        <target>عنوان</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "GO5-ud-uWA";</note>
+      </trans-unit>
+      <trans-unit id="GT7-bg-YVQ.normalTitle">
+        <source>Sign In</source>
+        <target>تسجيل دخول</target>
+        <note>Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "GT7-bg-YVQ";</note>
+      </trans-unit>
+      <trans-unit id="GTa-wd-bet.text">
+        <source>Share Area:</source>
+        <target>مشاركه المنطقه:</target>
+        <note>Class = "UILabel"; text = "Share Area:"; ObjectID = "GTa-wd-bet";</note>
+      </trans-unit>
+      <trans-unit id="GUg-js-vKS.placeholder">
+        <source>Add New Price</source>
+        <target>اضافه سعر جديد</target>
+        <note>Class = "UITextField"; placeholder = "Add New Price"; ObjectID = "GUg-js-vKS";</note>
+      </trans-unit>
+      <trans-unit id="HOv-o1-3FP.placeholder">
+        <source>Rent Time</source>
+        <target>وقت الحجز</target>
+        <note>Class = "UITextField"; placeholder = "Rent Time"; ObjectID = "HOv-o1-3FP";</note>
+      </trans-unit>
+      <trans-unit id="HUa-Kk-0uC.placeholder">
+        <source>Phone</source>
+        <target>الهاتف</target>
+        <note>Class = "UITextField"; placeholder = "Phone"; ObjectID = "HUa-Kk-0uC";</note>
+      </trans-unit>
+      <trans-unit id="Hbx-qa-mDc.title">
+        <source>Map</source>
+        <target>خريطه</target>
+        <note>Class = "UITabBarItem"; title = "Map"; ObjectID = "Hbx-qa-mDc";</note>
+      </trans-unit>
+      <trans-unit id="Hr4-Vr-1mp.placeholder">
+        <source>Type of residential unit</source>
+        <target>نوع الوحدة السكنية</target>
+        <note>Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Hr4-Vr-1mp";</note>
+      </trans-unit>
+      <trans-unit id="HuS-Je-sPC.text">
+        <source>type</source>
+        <target>نواع</target>
+        <note>Class = "UILabel"; text = "type"; ObjectID = "HuS-Je-sPC";</note>
+      </trans-unit>
+      <trans-unit id="I7y-s3-WDD.placeholder">
+        <source>Price To</source>
+        <target>السعر الي</target>
+        <note>Class = "UITextField"; placeholder = "Price To"; ObjectID = "I7y-s3-WDD";</note>
+      </trans-unit>
+      <trans-unit id="I54-Fx-2XP.normalTitle">
+        <source>Contracts</source>
+        <target>عقود</target>
+        <note>Class = "UIButton"; normalTitle = "Contracts"; ObjectID = "I54-Fx-2XP";</note>
+      </trans-unit>
+      <trans-unit id="J49-rD-BAo.placeholder">
+        <source>Unit Type</source>
+        <target>نوع الوحده</target>
+        <note>Class = "UITextField"; placeholder = "Unit Type"; ObjectID = "J49-rD-BAo";</note>
+      </trans-unit>
+      <trans-unit id="M0W-KD-JNw.text">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "M0W-KD-JNw";</note>
+      </trans-unit>
+      <trans-unit id="NLr-eb-af9.text">
+        <source>Name</source>
+        <target>الاسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "NLr-eb-af9";</note>
+      </trans-unit>
+      <trans-unit id="NfR-6D-Cmn.placeholder">
+        <source>Price From</source>
+        <target>السعر الي</target>
+        <note>Class = "UITextField"; placeholder = "Price From"; ObjectID = "NfR-6D-Cmn";</note>
+      </trans-unit>
+      <trans-unit id="NuB-uf-uW2.placeholder">
+        <source>Select Location</source>
+        <target>اختار العنوان</target>
+        <note>Class = "UITextField"; placeholder = "Select Location"; ObjectID = "NuB-uf-uW2";</note>
+      </trans-unit>
+      <trans-unit id="Ot0-HN-Wwk.text">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "Ot0-HN-Wwk";</note>
+      </trans-unit>
+      <trans-unit id="PMK-Gk-NwG.placeholder">
+        <source>Enter New Price</source>
+        <target>ادخل سعر الجديد</target>
+        <note>Class = "UITextField"; placeholder = "Enter New Price"; ObjectID = "PMK-Gk-NwG";</note>
+      </trans-unit>
+      <trans-unit id="PTu-xp-tnG.title">
+        <source>My Account</source>
+        <target>حسابي</target>
+        <note>Class = "UITabBarItem"; title = "My Account"; ObjectID = "PTu-xp-tnG";</note>
+      </trans-unit>
+      <trans-unit id="PX1-ci-gVS.text">
+        <source>SIze</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "PX1-ci-gVS";</note>
+      </trans-unit>
+      <trans-unit id="PvK-1J-vhM.text">
+        <source>type</source>
+        <target>نوع</target>
+        <note>Class = "UILabel"; text = "type"; ObjectID = "PvK-1J-vhM";</note>
+      </trans-unit>
+      <trans-unit id="TMp-rR-pMV.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "TMp-rR-pMV";</note>
+      </trans-unit>
+      <trans-unit id="TTj-h4-0tL.placeholder">
+        <source>Expected Start Date</source>
+        <target>تاريخ البدء المتوقع</target>
+        <note>Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "TTj-h4-0tL";</note>
+      </trans-unit>
+      <trans-unit id="U0n-uy-9Ug.text">
+        <source>Realstate bit</source>
+        <target>Realstate bit</target>
+        <note>Class = "UILabel"; text = "Realstate bit"; ObjectID = "U0n-uy-9Ug";</note>
+      </trans-unit>
+      <trans-unit id="U79-9n-YXs.normalTitle">
+        <source>Sign Up</source>
+        <target>حساب جديد</target>
+        <note>Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "U79-9n-YXs";</note>
+      </trans-unit>
+      <trans-unit id="U86-XS-nU0.text">
+        <source>SIze</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "U86-XS-nU0";</note>
+      </trans-unit>
+      <trans-unit id="UH7-tP-yjW.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "UH7-tP-yjW";</note>
+      </trans-unit>
+      <trans-unit id="WPH-zN-b2t.text">
+        <source>Title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "WPH-zN-b2t";</note>
+      </trans-unit>
+      <trans-unit id="XlS-Mn-nKm.normalTitle">
+        <source>Forget Password</source>
+        <target>نسيت كلمه المرور</target>
+        <note>Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "XlS-Mn-nKm";</note>
+      </trans-unit>
+      <trans-unit id="Ywn-R2-KZd.text">
+        <source>Des</source>
+        <target>وصف</target>
+        <note>Class = "UILabel"; text = "Des"; ObjectID = "Ywn-R2-KZd";</note>
+      </trans-unit>
+      <trans-unit id="ZCJ-as-qsR.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "ZCJ-as-qsR";</note>
+      </trans-unit>
+      <trans-unit id="ZHS-Uy-b9y.text">
+        <source>Special Realstate</source>
+        <target>عقارات خاصه</target>
+        <note>Class = "UILabel"; text = "Special Realstate"; ObjectID = "ZHS-Uy-b9y";</note>
+      </trans-unit>
+      <trans-unit id="ZzV-2q-jgL.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "ZzV-2q-jgL";</note>
+      </trans-unit>
+      <trans-unit id="a7E-JZ-732.title">
+        <source>Menu</source>
+        <target>القائمه</target>
+        <note>Class = "UITabBarItem"; title = "Menu"; ObjectID = "a7E-JZ-732";</note>
+      </trans-unit>
+      <trans-unit id="aHv-yq-Dgm.placeholder">
+        <source>User Name</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UITextField"; placeholder = "User Name"; ObjectID = "aHv-yq-Dgm";</note>
+      </trans-unit>
+      <trans-unit id="aSg-ji-EZP.text">
+        <source>Bit your unit now</source>
+        <target>احجز وحدتك الان</target>
+        <note>Class = "UILabel"; text = "Bit your unit now"; ObjectID = "aSg-ji-EZP";</note>
+      </trans-unit>
+      <trans-unit id="adc-ju-dVv.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "adc-ju-dVv";</note>
+      </trans-unit>
+      <trans-unit id="b0X-4T-pZC.placeholder">
+        <source>Payment Methods</source>
+        <target>نوع الدفع</target>
+        <note>Class = "UITextField"; placeholder = "Payment Methods"; ObjectID = "b0X-4T-pZC";</note>
+      </trans-unit>
+      <trans-unit id="bJN-Yb-AcV.text">
+        <source>Time</source>
+        <target>وقت</target>
+        <note>Class = "UILabel"; text = "Time"; ObjectID = "bJN-Yb-AcV";</note>
+      </trans-unit>
+      <trans-unit id="bXO-0P-2EK.text">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "bXO-0P-2EK";</note>
+      </trans-unit>
+      <trans-unit id="cZ6-xz-AmB.title">
+        <source>Advanced Search</source>
+        <target>بحث متقدم</target>
+        <note>Class = "UINavigationItem"; title = "Advanced Search"; ObjectID = "cZ6-xz-AmB";</note>
+      </trans-unit>
+      <trans-unit id="ceR-Iw-mAt.text">
+        <source>size</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "size"; ObjectID = "ceR-Iw-mAt";</note>
+      </trans-unit>
+      <trans-unit id="d55-zg-GdH.placeholder">
+        <source>Expected Start Date</source>
+        <target>تاريخ البدء المتوقع</target>
+        <note>Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "d55-zg-GdH";</note>
+      </trans-unit>
+      <trans-unit id="dns-1n-Eie.placeholder">
+        <source>Choose location of residential unit</source>
+        <target>اختيار موقع الوحدة السكنية</target>
+        <note>Class = "UITextField"; placeholder = "Choose location of residential unit"; ObjectID = "dns-1n-Eie";</note>
+      </trans-unit>
+      <trans-unit id="dvf-Mm-OLR.text">
+        <source>SIze</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "dvf-Mm-OLR";</note>
+      </trans-unit>
+      <trans-unit id="ecr-7H-Yx4.normalTitle">
+        <source>عربي</source>
+        <target>English</target>
+        <note>Class = "UIButton"; normalTitle = "عربي"; ObjectID = "ecr-7H-Yx4";</note>
+      </trans-unit>
+      <trans-unit id="eor-Hl-Js9.placeholder">
+        <source>Unit Size Meter</source>
+        <target>حجم الوحده بالمتر</target>
+        <note>Class = "UITextField"; placeholder = "Unit Size Meter"; ObjectID = "eor-Hl-Js9";</note>
+      </trans-unit>
+      <trans-unit id="exo-f8-ThJ.placeholder">
+        <source>Password</source>
+        <target>كلمه المرور</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "exo-f8-ThJ";</note>
+      </trans-unit>
+      <trans-unit id="fHa-cN-HhT.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "fHa-cN-HhT";</note>
+      </trans-unit>
+      <trans-unit id="fdd-D6-eL7.normalTitle">
+        <source>   Login</source>
+        <target>   تسجيل</target>
+        <note>Class = "UIButton"; normalTitle = "   Login"; ObjectID = "fdd-D6-eL7";</note>
+      </trans-unit>
+      <trans-unit id="ffb-1E-geg.text">
+        <source>floor</source>
+        <target>طابق</target>
+        <note>Class = "UILabel"; text = "floor"; ObjectID = "ffb-1E-geg";</note>
+      </trans-unit>
+      <trans-unit id="fhg-ad-3fm.text">
+        <source>Book your unit now</source>
+        <target>احجز وحدتك الان</target>
+        <note>Class = "UILabel"; text = "Book your unit now"; ObjectID = "fhg-ad-3fm";</note>
+      </trans-unit>
+      <trans-unit id="gEQ-JI-gRJ.text">
+        <source>Phone</source>
+        <target>الهاتف</target>
+        <note>Class = "UILabel"; text = "Phone"; ObjectID = "gEQ-JI-gRJ";</note>
+      </trans-unit>
+      <trans-unit id="gNc-hR-mj0.placeholder">
+        <source>Rent Type</source>
+        <target>نوع الحجز</target>
+        <note>Class = "UITextField"; placeholder = "Rent Type"; ObjectID = "gNc-hR-mj0";</note>
+      </trans-unit>
+      <trans-unit id="gQu-vi-5yX.text">
+        <source>Time</source>
+        <target>وقت</target>
+        <note>Class = "UILabel"; text = "Time"; ObjectID = "gQu-vi-5yX";</note>
+      </trans-unit>
+      <trans-unit id="gkK-kU-ske.text">
+        <source>title</source>
+        <target>الاسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "gkK-kU-ske";</note>
+      </trans-unit>
+      <trans-unit id="hdc-DS-HfG.text">
+        <source>Time</source>
+        <target>وقت</target>
+        <note>Class = "UILabel"; text = "Time"; ObjectID = "hdc-DS-HfG";</note>
+      </trans-unit>
+      <trans-unit id="i2I-Kd-yIa.text">
+        <source>Address</source>
+        <target>عنوان</target>
+        <note>Class = "UILabel"; text = "Address"; ObjectID = "i2I-Kd-yIa";</note>
+      </trans-unit>
+      <trans-unit id="j9x-xd-9FV.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "j9x-xd-9FV";</note>
+      </trans-unit>
+      <trans-unit id="jRa-0y-NBz.text">
+        <source>type</source>
+        <target>نواع</target>
+        <note>Class = "UILabel"; text = "type"; ObjectID = "jRa-0y-NBz";</note>
+      </trans-unit>
+      <trans-unit id="kMa-o1-o6Y.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "kMa-o1-o6Y";</note>
+      </trans-unit>
+      <trans-unit id="lb4-5z-yfX.text">
+        <source>Get number of share now</source>
+        <target>الحصول على عدد من حصة الآن</target>
+        <note>Class = "UILabel"; text = "Get number of share now"; ObjectID = "lb4-5z-yfX";</note>
+      </trans-unit>
+      <trans-unit id="mI8-V2-vMS.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "mI8-V2-vMS";</note>
+      </trans-unit>
+      <trans-unit id="mQE-BP-aVU.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "mQE-BP-aVU";</note>
+      </trans-unit>
+      <trans-unit id="n9m-cb-Wb8.text">
+        <source>Similar Real State</source>
+        <target>العقارات المتشابه</target>
+        <note>Class = "UILabel"; text = "Similar Real State"; ObjectID = "n9m-cb-Wb8";</note>
+      </trans-unit>
+      <trans-unit id="n91-gl-zqL.text">
+        <source>Number of sold Share</source>
+        <target>عدد الأسهم المباعة</target>
+        <note>Class = "UILabel"; text = "Number of sold Share"; ObjectID = "n91-gl-zqL";</note>
+      </trans-unit>
+      <trans-unit id="nQr-Qp-D5w.text">
+        <source>Initial price</source>
+        <target>السعر المبدائي</target>
+        <note>Class = "UILabel"; text = "Initial price"; ObjectID = "nQr-Qp-D5w";</note>
+      </trans-unit>
+      <trans-unit id="nTX-Vh-8Me.segmentTitles[0]">
+        <source>RENT</source>
+        <target>حجز</target>
+        <note>Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[0] = "RENT"; ObjectID = "nTX-Vh-8Me";</note>
+      </trans-unit>
+      <trans-unit id="nTX-Vh-8Me.segmentTitles[1]">
+        <source>SELLING</source>
+        <target>يبيع</target>
+        <note>Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[1] = "SELLING"; ObjectID = "nTX-Vh-8Me";</note>
+      </trans-unit>
+      <trans-unit id="oAK-6p-Wkc.placeholder">
+        <source>Email</source>
+        <target>البريد</target>
+        <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "oAK-6p-Wkc";</note>
+      </trans-unit>
+      <trans-unit id="oEy-R2-d4e.placeholder">
+        <source>Password</source>
+        <target>كلمه المرور</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "oEy-R2-d4e";</note>
+      </trans-unit>
+      <trans-unit id="oIY-ft-ROJ.text">
+        <source>size</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "size"; ObjectID = "oIY-ft-ROJ";</note>
+      </trans-unit>
+      <trans-unit id="oJC-tK-mbe.text">
+        <source>SIze</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "oJC-tK-mbe";</note>
+      </trans-unit>
+      <trans-unit id="p9W-Uq-J8Y.normalTitle">
+        <source>Reservations</source>
+        <target>حجز</target>
+        <note>Class = "UIButton"; normalTitle = "Reservations"; ObjectID = "p9W-Uq-J8Y";</note>
+      </trans-unit>
+      <trans-unit id="pOB-vr-6mo.normalTitle">
+        <source>Log out</source>
+        <target>تسجيل الخروج</target>
+        <note>Class = "UIButton"; normalTitle = "Log out"; ObjectID = "pOB-vr-6mo";</note>
+      </trans-unit>
+      <trans-unit id="q6f-bw-6oC.text">
+        <source>Details</source>
+        <target>تفاصيل</target>
+        <note>Class = "UILabel"; text = "Details"; ObjectID = "q6f-bw-6oC";</note>
+      </trans-unit>
+      <trans-unit id="qhW-2G-yT6.title">
+        <source>Menu</source>
+        <target>قائمه</target>
+        <note>Class = "UITabBarItem"; title = "Menu"; ObjectID = "qhW-2G-yT6";</note>
+      </trans-unit>
+      <trans-unit id="qrr-Nc-ywh.text">
+        <source>Price</source>
+        <target>سعر</target>
+        <note>Class = "UILabel"; text = "Price"; ObjectID = "qrr-Nc-ywh";</note>
+      </trans-unit>
+      <trans-unit id="t9e-lK-jNt.title">
+        <source>Choose your property</source>
+        <target>اختيار الممتلكات الخاصة بك</target>
+        <note>Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "t9e-lK-jNt";</note>
+      </trans-unit>
+      <trans-unit id="u1w-vB-Noh.normalTitle">
+        <source>Book Unit Now</source>
+        <target>احجز وحدتك الان</target>
+        <note>Class = "UIButton"; normalTitle = "Book Unit Now"; ObjectID = "u1w-vB-Noh";</note>
+      </trans-unit>
+      <trans-unit id="uxQ-Wk-h2U.text">
+        <source>SIze</source>
+        <target>حجم</target>
+        <note>Class = "UILabel"; text = "SIze"; ObjectID = "uxQ-Wk-h2U";</note>
+      </trans-unit>
+      <trans-unit id="vUa-z1-qjH.title">
+        <source>Choose your property</source>
+        <target>اختيار الممتلكات الخاصة بك</target>
+        <note>Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "vUa-z1-qjH";</note>
+      </trans-unit>
+      <trans-unit id="vo2-Fd-UBY.placeholder">
+        <source>Full name</source>
+        <target>الاسم</target>
+        <note>Class = "UITextField"; placeholder = "Full name"; ObjectID = "vo2-Fd-UBY";</note>
+      </trans-unit>
+      <trans-unit id="w0U-jN-imj.text">
+        <source>Bedroom</source>
+        <target>غرف النوم</target>
+        <note>Class = "UILabel"; text = "Bedroom"; ObjectID = "w0U-jN-imj";</note>
+      </trans-unit>
+      <trans-unit id="wFc-9Y-481.text">
+        <source>Book your unit now</source>
+        <target>احجز وحدتك الان</target>
+        <note>Class = "UILabel"; text = "Book your unit now"; ObjectID = "wFc-9Y-481";</note>
+      </trans-unit>
+      <trans-unit id="wea-VM-gev.text">
+        <source>Last price</source>
+        <target>اخر سعر</target>
+        <note>Class = "UILabel"; text = "Last price"; ObjectID = "wea-VM-gev";</note>
+      </trans-unit>
+      <trans-unit id="x5b-St-6cC.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "x5b-St-6cC";</note>
+      </trans-unit>
+      <trans-unit id="xG7-Yl-EPx.text">
+        <source>title</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "xG7-Yl-EPx";</note>
+      </trans-unit>
+      <trans-unit id="xln-1A-vBn.segmentTitles[0]">
+        <source>RENT</source>
+        <target>حجز</target>
+        <note>Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[0] = "RENT"; ObjectID = "xln-1A-vBn";</note>
+      </trans-unit>
+      <trans-unit id="xln-1A-vBn.segmentTitles[1]">
+        <source>SELLING</source>
+        <target>بيع</target>
+        <note>Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[1] = "SELLING"; ObjectID = "xln-1A-vBn";</note>
+      </trans-unit>
+      <trans-unit id="y1k-v9-Vsy.placeholder">
+        <source>Number of Shares</source>
+        <target>عدد المشاركات</target>
+        <note>Class = "UITextField"; placeholder = "Number of Shares"; ObjectID = "y1k-v9-Vsy";</note>
+      </trans-unit>
+      <trans-unit id="yZW-CC-T2u.text">
+        <source>Name</source>
+        <target>اسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "yZW-CC-T2u";</note>
+      </trans-unit>
+      <trans-unit id="zNY-2B-xZL.normalTitle">
+        <source>Search Now</source>
+        <target>بحث الان</target>
+        <note>Class = "UIButton"; normalTitle = "Search Now"; ObjectID = "zNY-2B-xZL";</note>
+      </trans-unit>
+      <trans-unit id="zeI-9x-8xt.placeholder">
+        <source>National ID</source>
+        <target>رقم الهويه</target>
+        <note>Class = "UITextField"; placeholder = "National ID"; ObjectID = "zeI-9x-8xt";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Resort Real Estate/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="ar-EG">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>Resort Real Estate</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysAndWhenInUseUsageDescription">
+        <source>Description</source>
+        <target>وصف</target>
+        <note>Privacy - Location Always and When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysUsageDescription">
+        <source>Description</source>
+        <target>وصف</target>
+        <note>Privacy - Location Always Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>Description</source>
+        <target>وصف</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Resort Real Estate/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="ar-EG">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="Register Filed">
+        <source>Register Filed</source>
+        <target>التسجل فشل</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="email not correct">
+        <source>email not correct</source>
+        <target>البريد خطاء</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="en">
+        <source>en</source>
+        <target>ar</target>
+        <note>profuct list lang</note>
+      </trans-unit>
+      <trans-unit id="enter your Email">
+        <source>enter your Email</source>
+        <target>ادخل بريد</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="enter your Full User Name">
+        <source>enter your Full User Name</source>
+        <target>ادخل الاسم</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="enter your Full name">
+        <source>enter your Full name</source>
+        <target>ادخل الاسم</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="enter your Id">
+        <source>enter your Id</source>
+        <target>ادخل رقم الهويه</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="enter your password">
+        <source>enter your password</source>
+        <target>ادخل كلمه المرور</target>
+        <note>hhhh</note>
+      </trans-unit>
+      <trans-unit id="enter your phone">
+        <source>enter your phone</source>
+        <target>ادخل الهاتف</target>
+        <note>hhhh</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

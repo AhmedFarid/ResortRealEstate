@@ -30,6 +30,6 @@ struct URLs {
     static let booksaleunit = main + "booksaleunit"
     static let GetContractsBYCustomer = main + "GetContractsBYCustomer"
     static let GetBookingsBYCustomer = main + "GetBookingsBYCustomer"
-
+    
     
 }

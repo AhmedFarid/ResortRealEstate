@@ -8,26 +8,33 @@
 
 import UIKit
 import IQKeyboardManagerSwift
+import MOLH
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, MOLHResetable {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         IQKeyboardManager.shared.enable = true
-//        if let user_token = helper.getAPIToken(){
-//            print("user_token\(user_token)")
-//            //go to main page
-//            let tab = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "main")
-//            window?.rootViewController = tab
-//        }
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.clear], for: UIControl.State.highlighted)
 
+        
+        MOLHLanguage.setDefaultLanguage("ar-EG")
+        MOLH.shared.activate(true)
+        //MOLH.shared.specialKeyWords = ["Cancel","Done"]
+        
         return true
+    }
+    
+    func reset() {
+        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+        let stry = UIStoryboard(name: "Main", bundle: nil)
+        rootviewcontroller.rootViewController = stry.instantiateInitialViewController()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

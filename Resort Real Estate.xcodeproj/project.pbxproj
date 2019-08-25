@@ -16,6 +16,7 @@
 		6968441322EF5C9D00B78DC1 /* reservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6968441222EF5C9D00B78DC1 /* reservationCell.swift */; };
 		6968441522EF631300B78DC1 /* API+countecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6968441422EF631300B78DC1 /* API+countecter.swift */; };
 		6968441722EF647A00B78DC1 /* conterctsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6968441622EF647A00B78DC1 /* conterctsCell.swift */; };
+		6983B86A230D70BB005DEA9C /* mapHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6983B869230D70BB005DEA9C /* mapHomeVC.swift */; };
 		69A00D9222E8B47F0063457B /* API+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A00D9122E8B47F0063457B /* API+Auth.swift */; };
 		69A00D9522E8B7B40063457B /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A00D9422E8B7B40063457B /* helper.swift */; };
 		69A00D9722E8B9B80063457B /* registerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A00D9622E8B9B80063457B /* registerVC.swift */; };
@@ -39,6 +40,8 @@
 		69C4BE5322E9E5890069632E /* bookSellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5222E9E5890069632E /* bookSellVC.swift */; };
 		69C4BE5522EA04C40069632E /* bookRentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5422EA04C40069632E /* bookRentVC.swift */; };
 		69C4BE5722EA064C0069632E /* API+bookingUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C4BE5622EA064C0069632E /* API+bookingUnit.swift */; };
+		69CA088E2311B8EC0058A586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69CA088C2311B8EC0058A586 /* InfoPlist.strings */; };
+		69CA08912311B8EC0058A586 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69CA088F2311B8EC0058A586 /* Localizable.strings */; };
 		69CA5B2022DB55BE00061C98 /* uiViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA5B1F22DB55BE00061C98 /* uiViewsView.swift */; };
 		69CA5B2322DB603D00061C98 /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA5B2222DB603D00061C98 /* menuCell.swift */; };
 		69CDEF9822EFB1A000DFD19C /* resevationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDEF9722EFB1A000DFD19C /* resevationsVC.swift */; };
@@ -49,6 +52,7 @@
 		69D8688322D781B400341C12 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D8688222D781B400341C12 /* searchVC.swift */; };
 		69DC515D22E5C48000F22377 /* API+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC515C22E5C48000F22377 /* API+Search.swift */; };
 		69DC516022E5D53200F22377 /* searchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC515F22E5D53200F22377 /* searchResultVC.swift */; };
+		69E23F91230EA76B00DEED35 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E23F90230EA76B00DEED35 /* LocationSearchTable.swift */; };
 		F8A7EA3A586F04FB2E4DD284 /* Pods_Resort_Real_Estate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7C8BD9D0C47C579221C1AF /* Pods_Resort_Real_Estate.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +68,7 @@
 		6968441222EF5C9D00B78DC1 /* reservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationCell.swift; sourceTree = "<group>"; };
 		6968441422EF631300B78DC1 /* API+countecter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+countecter.swift"; sourceTree = "<group>"; };
 		6968441622EF647A00B78DC1 /* conterctsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conterctsCell.swift; sourceTree = "<group>"; };
+		6983B869230D70BB005DEA9C /* mapHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapHomeVC.swift; sourceTree = "<group>"; };
 		69A00D9122E8B47F0063457B /* API+Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Auth.swift"; sourceTree = "<group>"; };
 		69A00D9422E8B7B40063457B /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		69A00D9622E8B9B80063457B /* registerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerVC.swift; sourceTree = "<group>"; };
@@ -89,6 +94,10 @@
 		69C4BE5222E9E5890069632E /* bookSellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookSellVC.swift; sourceTree = "<group>"; };
 		69C4BE5422EA04C40069632E /* bookRentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookRentVC.swift; sourceTree = "<group>"; };
 		69C4BE5622EA064C0069632E /* API+bookingUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+bookingUnit.swift"; sourceTree = "<group>"; };
+		69CA088A2311B8D10058A586 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Main.strings"; sourceTree = "<group>"; };
+		69CA088B2311B8D10058A586 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		69CA088D2311B8EC0058A586 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		69CA08902311B8EC0058A586 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-EG"; path = "ar-EG.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		69CA5B1F22DB55BE00061C98 /* uiViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiViewsView.swift; sourceTree = "<group>"; };
 		69CA5B2222DB603D00061C98 /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
 		69CDEF9722EFB1A000DFD19C /* resevationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resevationsVC.swift; sourceTree = "<group>"; };
@@ -99,6 +108,7 @@
 		69D8688222D781B400341C12 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
 		69DC515C22E5C48000F22377 /* API+Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Search.swift"; sourceTree = "<group>"; };
 		69DC515F22E5D53200F22377 /* searchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultVC.swift; sourceTree = "<group>"; };
+		69E23F90230EA76B00DEED35 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		ECA6464D5AB5EAA0DE225D4C /* Pods-Resort Real Estate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resort Real Estate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resort Real Estate/Pods-Resort Real Estate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,6 +215,8 @@
 				69B7F37622D4CFDA009236D9 /* Main.storyboard */,
 				69B7F37B22D4CFDD009236D9 /* LaunchScreen.storyboard */,
 				69B7F37E22D4CFDD009236D9 /* Info.plist */,
+				69CA088F2311B8EC0058A586 /* Localizable.strings */,
+				69CA088C2311B8EC0058A586 /* InfoPlist.strings */,
 			);
 			path = "Resort Real Estate";
 			sourceTree = "<group>";
@@ -215,10 +227,12 @@
 				69CDEF9622EFB0EC00DFD19C /* countraces */,
 				693C665C22E87E2A00A6607A /* Auth */,
 				69B7F37422D4CFDA009236D9 /* homeMapVC.swift */,
+				69E23F90230EA76B00DEED35 /* LocationSearchTable.swift */,
 				69D8687E22D759F600341C12 /* profileVC.swift */,
 				69DC516122E5D7C200F22377 /* Menu */,
 				69DC515E22E5D50000F22377 /* Advanced Search */,
 				6937111022EFBE9900FD694E /* sideMenuVC.swift */,
+				6983B869230D70BB005DEA9C /* mapHomeVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -339,6 +353,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-EG",
 			);
 			mainGroup = 69B7F36622D4CFDA009236D9;
 			productRefGroup = 69B7F37022D4CFDA009236D9 /* Products */;
@@ -356,7 +371,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B7F37D22D4CFDD009236D9 /* LaunchScreen.storyboard in Resources */,
+				69CA088E2311B8EC0058A586 /* InfoPlist.strings in Resources */,
 				69B7F37A22D4CFDD009236D9 /* Assets.xcassets in Resources */,
+				69CA08912311B8EC0058A586 /* Localizable.strings in Resources */,
 				69B7F38822D4DBC8009236D9 /* Cairo-Bold.ttf in Resources */,
 				69B7F37822D4CFDA009236D9 /* Main.storyboard in Resources */,
 				69B7F38922D4DBC8009236D9 /* Cairo-Regular.ttf in Resources */,
@@ -376,6 +393,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MOLH/MOLH.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -383,6 +401,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOLH.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,8 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E23F91230EA76B00DEED35 /* LocationSearchTable.swift in Sources */,
 				69C2EB9822E0938800ED85B9 /* circalImageVIew.swift in Sources */,
 				6937111122EFBE9900FD694E /* sideMenuVC.swift in Sources */,
+				6983B86A230D70BB005DEA9C /* mapHomeVC.swift in Sources */,
 				69A00D9722E8B9B80063457B /* registerVC.swift in Sources */,
 				69CDEF9A22EFBD4500DFD19C /* conterctVC.swift in Sources */,
 				6968441322EF5C9D00B78DC1 /* reservationCell.swift in Sources */,
@@ -462,6 +483,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				69B7F37722D4CFDA009236D9 /* Base */,
+				69CA088A2311B8D10058A586 /* ar-EG */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -470,8 +492,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				69B7F37C22D4CFDD009236D9 /* Base */,
+				69CA088B2311B8D10058A586 /* ar-EG */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		69CA088C2311B8EC0058A586 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CA088D2311B8EC0058A586 /* ar-EG */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69CA088F2311B8EC0058A586 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CA08902311B8EC0058A586 /* ar-EG */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -542,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -600,7 +641,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8PSMMFGLK;
+				DEVELOPMENT_TEAM = 4Z34DQ34UQ;
 				INFOPLIST_FILE = "Resort Real Estate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -621,7 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8PSMMFGLK;
+				DEVELOPMENT_TEAM = 4Z34DQ34UQ;
 				INFOPLIST_FILE = "Resort Real Estate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

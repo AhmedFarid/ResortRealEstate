@@ -1,0 +1,330 @@
+
+/* Class = "UITextField"; placeholder = "User name"; ObjectID = "0N6-ij-MKU"; */
+"0N6-ij-MKU.placeholder" = "User name";
+
+/* Class = "UILabel"; text = "Number of share remaining"; ObjectID = "0PC-VC-ftD"; */
+"0PC-VC-ftD.text" = "Number of share remaining";
+
+/* Class = "UIButton"; normalTitle = "New Account"; ObjectID = "0tR-O4-s1y"; */
+"0tR-O4-s1y.normalTitle" = "New Account";
+
+/* Class = "UILabel"; text = "Unit Descripation"; ObjectID = "4ye-sk-wI3"; */
+"4ye-sk-wI3.text" = "Unit Descripation";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "5Cd-UH-JFg"; */
+"5Cd-UH-JFg.text" = "Address";
+
+/* Class = "UITextField"; placeholder = "Number Of Rooms"; ObjectID = "5Uo-Nb-uX4"; */
+"5Uo-Nb-uX4.placeholder" = "Number Of Rooms";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "6ZU-1c-h34"; */
+"6ZU-1c-h34.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "8kv-Zp-cKy"; */
+"8kv-Zp-cKy.text" = "SIze";
+
+/* Class = "UINavigationItem"; title = "My Account"; ObjectID = "8xG-Ct-CoA"; */
+"8xG-Ct-CoA.title" = "My Account";
+
+/* Class = "UILabel"; text = "Select Search Types"; ObjectID = "9QY-fX-P6D"; */
+"9QY-fX-P6D.text" = "Select Search Types";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "Agd-cD-d51"; */
+"Agd-cD-d51.text" = "Address";
+
+/* Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Aue-BT-YLi"; */
+"Aue-BT-YLi.placeholder" = "Type of residential unit";
+
+/* Class = "UILabel"; text = "Newest Ads"; ObjectID = "ChS-ZA-fbf"; */
+"ChS-ZA-fbf.text" = "Newest Ads";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "D6u-TU-ab7"; */
+"D6u-TU-ab7.text" = "size";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "DbN-mo-XJv"; */
+"DbN-mo-XJv.text" = "Time";
+
+/* Class = "UITextField"; placeholder = "Rent Or Sell"; ObjectID = "EZK-PH-U7t"; */
+"EZK-PH-U7t.placeholder" = "Rent Or Sell";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "GO5-ud-uWA"; */
+"GO5-ud-uWA.text" = "Address";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "GT7-bg-YVQ"; */
+"GT7-bg-YVQ.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "Share Area:"; ObjectID = "GTa-wd-bet"; */
+"GTa-wd-bet.text" = "Share Area:";
+
+/* Class = "UITextField"; placeholder = "Add New Price"; ObjectID = "GUg-js-vKS"; */
+"GUg-js-vKS.placeholder" = "Add New Price";
+
+/* Class = "UITextField"; placeholder = "Rent Time"; ObjectID = "HOv-o1-3FP"; */
+"HOv-o1-3FP.placeholder" = "Rent Time";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "HUa-Kk-0uC"; */
+"HUa-Kk-0uC.placeholder" = "Phone";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "Hbx-qa-mDc"; */
+"Hbx-qa-mDc.title" = "Map";
+
+/* Class = "UITextField"; placeholder = "Type of residential unit"; ObjectID = "Hr4-Vr-1mp"; */
+"Hr4-Vr-1mp.placeholder" = "Type of residential unit";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "HuS-Je-sPC"; */
+"HuS-Je-sPC.text" = "type";
+
+/* Class = "UIButton"; normalTitle = "Contracts"; ObjectID = "I54-Fx-2XP"; */
+"I54-Fx-2XP.normalTitle" = "Contracts";
+
+/* Class = "UITextField"; placeholder = "Price To"; ObjectID = "I7y-s3-WDD"; */
+"I7y-s3-WDD.placeholder" = "Price To";
+
+/* Class = "UITextField"; placeholder = "Unit Type"; ObjectID = "J49-rD-BAo"; */
+"J49-rD-BAo.placeholder" = "Unit Type";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "M0W-KD-JNw"; */
+"M0W-KD-JNw.text" = "Price";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "NLr-eb-af9"; */
+"NLr-eb-af9.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Price From"; ObjectID = "NfR-6D-Cmn"; */
+"NfR-6D-Cmn.placeholder" = "Price From";
+
+/* Class = "UITextField"; placeholder = "Select Location"; ObjectID = "NuB-uf-uW2"; */
+"NuB-uf-uW2.placeholder" = "Select Location";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "Ot0-HN-Wwk"; */
+"Ot0-HN-Wwk.text" = "Price";
+
+/* Class = "UITextField"; placeholder = "Enter New Price"; ObjectID = "PMK-Gk-NwG"; */
+"PMK-Gk-NwG.placeholder" = "Enter New Price";
+
+/* Class = "UITabBarItem"; title = "My Account"; ObjectID = "PTu-xp-tnG"; */
+"PTu-xp-tnG.title" = "My Account";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "PX1-ci-gVS"; */
+"PX1-ci-gVS.text" = "SIze";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "PvK-1J-vhM"; */
+"PvK-1J-vhM.text" = "type";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "TMp-rR-pMV"; */
+"TMp-rR-pMV.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "TTj-h4-0tL"; */
+"TTj-h4-0tL.placeholder" = "Expected Start Date";
+
+/* Class = "UILabel"; text = "Realstate bit"; ObjectID = "U0n-uy-9Ug"; */
+"U0n-uy-9Ug.text" = "Realstate bit";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "U79-9n-YXs"; */
+"U79-9n-YXs.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "U86-XS-nU0"; */
+"U86-XS-nU0.text" = "SIze";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "UH7-tP-yjW"; */
+"UH7-tP-yjW.text" = "title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WPH-zN-b2t"; */
+"WPH-zN-b2t.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "XlS-Mn-nKm"; */
+"XlS-Mn-nKm.normalTitle" = "Forget Password";
+
+/* Class = "UILabel"; text = "Des"; ObjectID = "Ywn-R2-KZd"; */
+"Ywn-R2-KZd.text" = "Des";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "ZCJ-as-qsR"; */
+"ZCJ-as-qsR.text" = "title";
+
+/* Class = "UILabel"; text = "Special Realstate"; ObjectID = "ZHS-Uy-b9y"; */
+"ZHS-Uy-b9y.text" = "Special Realstate";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ZzV-2q-jgL"; */
+"ZzV-2q-jgL.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "a7E-JZ-732"; */
+"a7E-JZ-732.title" = "Menu";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "aHv-yq-Dgm"; */
+"aHv-yq-Dgm.placeholder" = "User Name";
+
+/* Class = "UILabel"; text = "Bit your unit now"; ObjectID = "aSg-ji-EZP"; */
+"aSg-ji-EZP.text" = "Bit your unit now";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "adc-ju-dVv"; */
+"adc-ju-dVv.text" = "title";
+
+/* Class = "UITextField"; placeholder = "Payment Methods"; ObjectID = "b0X-4T-pZC"; */
+"b0X-4T-pZC.placeholder" = "Payment Methods";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "bJN-Yb-AcV"; */
+"bJN-Yb-AcV.text" = "Time";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "bXO-0P-2EK"; */
+"bXO-0P-2EK.text" = "Price";
+
+/* Class = "UINavigationItem"; title = "Advanced Search"; ObjectID = "cZ6-xz-AmB"; */
+"cZ6-xz-AmB.title" = "Advanced Search";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "ceR-Iw-mAt"; */
+"ceR-Iw-mAt.text" = "size";
+
+/* Class = "UITextField"; placeholder = "Expected Start Date"; ObjectID = "d55-zg-GdH"; */
+"d55-zg-GdH.placeholder" = "Expected Start Date";
+
+/* Class = "UITextField"; placeholder = "Choose location of residential unit"; ObjectID = "dns-1n-Eie"; */
+"dns-1n-Eie.placeholder" = "Choose location of residential unit";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "dvf-Mm-OLR"; */
+"dvf-Mm-OLR.text" = "SIze";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "ecr-7H-Yx4"; */
+"ecr-7H-Yx4.normalTitle" = "عربي";
+
+/* Class = "UITextField"; placeholder = "Unit Size Meter"; ObjectID = "eor-Hl-Js9"; */
+"eor-Hl-Js9.placeholder" = "Unit Size Meter";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "exo-f8-ThJ"; */
+"exo-f8-ThJ.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "fHa-cN-HhT"; */
+"fHa-cN-HhT.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "   Login"; ObjectID = "fdd-D6-eL7"; */
+"fdd-D6-eL7.normalTitle" = "   Login";
+
+/* Class = "UILabel"; text = "floor"; ObjectID = "ffb-1E-geg"; */
+"ffb-1E-geg.text" = "floor";
+
+/* Class = "UILabel"; text = "Book your unit now"; ObjectID = "fhg-ad-3fm"; */
+"fhg-ad-3fm.text" = "Book your unit now";
+
+/* Class = "UILabel"; text = "Phone"; ObjectID = "gEQ-JI-gRJ"; */
+"gEQ-JI-gRJ.text" = "Phone";
+
+/* Class = "UITextField"; placeholder = "Rent Type"; ObjectID = "gNc-hR-mj0"; */
+"gNc-hR-mj0.placeholder" = "Rent Type";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "gQu-vi-5yX"; */
+"gQu-vi-5yX.text" = "Time";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "gkK-kU-ske"; */
+"gkK-kU-ske.text" = "title";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "hdc-DS-HfG"; */
+"hdc-DS-HfG.text" = "Time";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "i2I-Kd-yIa"; */
+"i2I-Kd-yIa.text" = "Address";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "j9x-xd-9FV"; */
+"j9x-xd-9FV.text" = "Name";
+
+/* Class = "UILabel"; text = "type"; ObjectID = "jRa-0y-NBz"; */
+"jRa-0y-NBz.text" = "type";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "kMa-o1-o6Y"; */
+"kMa-o1-o6Y.text" = "title";
+
+/* Class = "UILabel"; text = "Get number of share now"; ObjectID = "lb4-5z-yfX"; */
+"lb4-5z-yfX.text" = "Get number of share now";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "mI8-V2-vMS"; */
+"mI8-V2-vMS.text" = "title";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "mQE-BP-aVU"; */
+"mQE-BP-aVU.text" = "Name";
+
+/* Class = "UILabel"; text = "Number of sold Share"; ObjectID = "n91-gl-zqL"; */
+"n91-gl-zqL.text" = "Number of sold Share";
+
+/* Class = "UILabel"; text = "Similar Real State"; ObjectID = "n9m-cb-Wb8"; */
+"n9m-cb-Wb8.text" = "Similar Real State";
+
+/* Class = "UILabel"; text = "Initial price"; ObjectID = "nQr-Qp-D5w"; */
+"nQr-Qp-D5w.text" = "Initial price";
+
+/* Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[0] = "RENT"; ObjectID = "nTX-Vh-8Me"; */
+"nTX-Vh-8Me.segmentTitles[0]" = "RENT";
+
+/* Class = "UISegmentedControl"; nTX-Vh-8Me.segmentTitles[1] = "SELLING"; ObjectID = "nTX-Vh-8Me"; */
+"nTX-Vh-8Me.segmentTitles[1]" = "SELLING";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "oAK-6p-Wkc"; */
+"oAK-6p-Wkc.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "oEy-R2-d4e"; */
+"oEy-R2-d4e.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "size"; ObjectID = "oIY-ft-ROJ"; */
+"oIY-ft-ROJ.text" = "size";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "oJC-tK-mbe"; */
+"oJC-tK-mbe.text" = "SIze";
+
+/* Class = "UIButton"; normalTitle = "Reservations"; ObjectID = "p9W-Uq-J8Y"; */
+"p9W-Uq-J8Y.normalTitle" = "Reservations";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "pOB-vr-6mo"; */
+"pOB-vr-6mo.normalTitle" = "Log out";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "q6f-bw-6oC"; */
+"q6f-bw-6oC.text" = "Details";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "qhW-2G-yT6"; */
+"qhW-2G-yT6.title" = "Menu";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "qrr-Nc-ywh"; */
+"qrr-Nc-ywh.text" = "Price";
+
+/* Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "t9e-lK-jNt"; */
+"t9e-lK-jNt.title" = "Choose your property";
+
+/* Class = "UIButton"; normalTitle = "Book Unit Now"; ObjectID = "u1w-vB-Noh"; */
+"u1w-vB-Noh.normalTitle" = "Book Unit Now";
+
+/* Class = "UILabel"; text = "SIze"; ObjectID = "uxQ-Wk-h2U"; */
+"uxQ-Wk-h2U.text" = "SIze";
+
+/* Class = "UINavigationItem"; title = "Choose your property"; ObjectID = "vUa-z1-qjH"; */
+"vUa-z1-qjH.title" = "Choose your property";
+
+/* Class = "UITextField"; placeholder = "Full name"; ObjectID = "vo2-Fd-UBY"; */
+"vo2-Fd-UBY.placeholder" = "Full name";
+
+/* Class = "UILabel"; text = "Bedroom"; ObjectID = "w0U-jN-imj"; */
+"w0U-jN-imj.text" = "Bedroom";
+
+/* Class = "UILabel"; text = "Book your unit now"; ObjectID = "wFc-9Y-481"; */
+"wFc-9Y-481.text" = "Book your unit now";
+
+/* Class = "UILabel"; text = "Last price"; ObjectID = "wea-VM-gev"; */
+"wea-VM-gev.text" = "Last price";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "x5b-St-6cC"; */
+"x5b-St-6cC.text" = "title";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "xG7-Yl-EPx"; */
+"xG7-Yl-EPx.text" = "title";
+
+/* Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[0] = "RENT"; ObjectID = "xln-1A-vBn"; */
+"xln-1A-vBn.segmentTitles[0]" = "RENT";
+
+/* Class = "UISegmentedControl"; xln-1A-vBn.segmentTitles[1] = "SELLING"; ObjectID = "xln-1A-vBn"; */
+"xln-1A-vBn.segmentTitles[1]" = "SELLING";
+
+/* Class = "UITextField"; placeholder = "Number of Shares"; ObjectID = "y1k-v9-Vsy"; */
+"y1k-v9-Vsy.placeholder" = "Number of Shares";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "yZW-CC-T2u"; */
+"yZW-CC-T2u.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Search Now"; ObjectID = "zNY-2B-xZL"; */
+"zNY-2B-xZL.normalTitle" = "Search Now";
+
+/* Class = "UITextField"; placeholder = "National ID"; ObjectID = "zeI-9x-8xt"; */
+"zeI-9x-8xt.placeholder" = "National ID";
